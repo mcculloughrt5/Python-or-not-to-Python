@@ -8,7 +8,7 @@ def main():
     x = eval(input("Enter a number between 0 and 1: "))
     y = eval(input("Enter a number between 0 and 1: "))
     print("%-20s %-20s" % (x, y))
-    print('-----------------------')
+    print('---------------------------------')
     for i in range(10):
         x = 3.9 * (x - x * x)
         y = 3.9 * (y - y * y)
